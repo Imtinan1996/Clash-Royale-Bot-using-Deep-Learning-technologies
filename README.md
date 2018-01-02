@@ -1,1 +1,15 @@
 # Clash-Royale-Bot-using-Deep-Learning-technologies
+
+#### Abstract:
+Clash Royale by the creators Supercell is an online multiplayer strategy game on the Android platform and has been subject to a large community. Our aim will be to create a deep learning based bot that learns the playing style of some of the best plays across the community and tries to emulate these styles so that the bot can play the game via Ai
+
+#### Introduction:
+
+The aim of this project was to create a bot that works via deep learning methods and successfully learns how to play the game, making both offensive and defensive moves, and simultaneously learns how to beat an opponent.
+So let’s see what the game is about. The game is a two player game and runs for a timer of 3 minutes, if at 3 minutes the game is still won by neither party then another extra minutes is added to the timer to help decide the winner. The objective of the game is to capture the maximum number of the opponent’s towers. Each player has at maximum 3 towers, if a player loses a tower to the opponent, the opponent gets a crown, the first one to three crowns wins, if the game end timer is reached then the player that holds the most number of crowns is declared the winner. To capture towers the player must use cards to his disposal, as of now there are 80 cards in total in the game. Before a match a player gets to decide on 8 cards to add to his deck, this deck is then used to play the game, initially 4 random cards are present to a player to play from, every time a card is played it is replaced by a random card, each card requires a certain amount of elixir to be played, a player can hold a maximum amount of 10 elixir, elixir regenerates slowly. Initially a player can place a card anywhere on his side of the board, later the board size increases as towers are captured. When cards are deployed they display a NPC that attacks based on some pre-set functions. Some cards are offensive and some defensive. We aim to build a bot that can initially beat the Ai put forth by the creators in the training camp section. 
+Clash Royale has this section known as RoyaleTV, it holds some of the best day to day plays that occur in matches amongst the community. This will be our main source of gameplay data form which we ill expect the bot to learn, but this will still require hefty pre-processing before our bot can be trained.
+Our aim was to initially create a bot that could beat the training camp bots available in the game. Such a desirable result was achieved. Sadly the training camp feature as removed from the game and was only available to beginners, which after one time clearance was inaccessible again. So in order to test the bot we had to create a dummy account on an emulator to run the game. Our bot was able to beat the bot that was present in the game, and the next step would be playing with a real life opponent.
+
+Gameplay files for the project can be found at:
+Trained models can be found at: https://drive.google.com/open?id=1632243lcPj165Tt-18OI1d2DNGLSl7kt
+Gameplay files can be found at: https://drive.google.com/open?id=1tyN2RIHMoC01ASLyieGDo3zMZDYwX2zq
