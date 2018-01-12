@@ -10,6 +10,5 @@ So let’s see what the game is about. The game is a two player game and runs fo
 Clash Royale has this section known as RoyaleTV, it holds some of the best day to day plays that occur in matches amongst the community. This will be our main source of gameplay data form which we ill expect the bot to learn, but this will still require hefty pre-processing before our bot can be trained.
 Our aim was to initially create a bot that could beat the training camp bots available in the game. Such a desirable result was achieved. Sadly the training camp feature as removed from the game and was only available to beginners, which after one time clearance was inaccessible again. So in order to test the bot we had to create a dummy account on an emulator to run the game. Our bot was able to beat the bot that was present in the game, and the next step would be playing with a real life opponent.
 
-Gameplay files for the project can be found at:
 Trained models can be found at: https://drive.google.com/open?id=1632243lcPj165Tt-18OI1d2DNGLSl7kt
 Gameplay files can be found at: https://drive.google.com/open?id=1tyN2RIHMoC01ASLyieGDo3zMZDYwX2zq
